@@ -1,0 +1,54 @@
+body{
+	background:linear-gradient(to bottom,#00d3cc,#FFFFFF)fixed;
+	margin:0;
+}
+
+.container{
+	width:60%;
+	background-color:white;
+	padding:0 50px 20px 50px;
+	border-radius:20px;
+}
+.container h2{
+	text-align:center;
+	font-size: 30px;
+	padding-top:10px;
+	margin-bottom:10px;
+}
+
+.mypage{
+	border-collapse:collapse;
+	width: 80%;
+	margin:0 auto;
+	
+}
+.mypage td{
+	padding-left:10px;
+	padding-right:10px;
+}
+.mypage th{
+	background-color:lightgray;
+}
+.mypage th, .mypage td{
+	border:solid black 1px;
+	width:50%;
+	height:60px;
+}
+.mypage a{
+  	color:#00409b;
+  	float:right;
+}
+
+#historyBtn{
+	float:right;
+	margin-right:10%;
+	margin-top:10px;
+	font-size: 15px;
+	background-color: #00409b;
+	color:white;
+	border-radius:5px;
+	width:100px;
+}
+.clear{
+	clear:both;
+}
